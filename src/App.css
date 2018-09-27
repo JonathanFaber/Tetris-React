@@ -1,0 +1,89 @@
+.App {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.App-header {
+  background-color: black;
+  padding: 40px;
+  color: white;
+}
+
+.App-title {
+  font-size: 2em;
+}
+
+.Play-area {
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  height: 75%;
+}
+
+.Game-left {
+  position: absolute;
+  top: 0px;
+  left: 0%;
+  width: 30%;
+  height: 100%;
+  text-align: left;
+  line-height: 200%;
+}
+
+.Game-center {
+  position: absolute;
+  top: 0px;
+  left: 30%;
+  width: 40%;
+  height: 100%;
+}
+
+.Game-right {
+  position: absolute;
+  top: 0px;
+  left: 70%;
+  width: 30%;
+  height: 100%;
+  text-align: left;
+  font-size: 1.2em;
+  line-height: 150%;
+}
+
+.Game-board {
+  position: relative;
+  top: 10px;
+}
+
+.Buttons {
+  position: absolute;
+  top: 80px;
+  left: 0%;
+  width: 40%;
+  height: 80%;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.Instructions {
+  position: absolute;
+  top: 80px;
+  left: 40%;
+  width: 60%;
+  height: 80%;
+  font-size: 1.3em;
+}
+
+input {
+  background-color: white;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  width: 60%;
+  font-size: 1.2em;
+}
